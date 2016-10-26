@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
-<div class="wrapper">
-	<ul class="nav">
-		<li id="active"><a href="#">All</a></li>
-		<li><a href="#">Online</a></li>
-		<li><a href="#">Offline</a></li>
-	</ul>
-	<div>
-		<ul class="results">
-			<li class="result">
-				<img class="result-pic" src="test.jpg">
-				<a class="result-link" href="#" target="_blank">TEST</a>
-				<p class="stream">Currently streaming bla bla bla...</p>
-			</li>
-		</ul>
-	</div>
-</div>
+    <div class="wrapper">
+        <ul class="nav">
+            <li class="active all filter"><a href="#">All</a></li>
+            <li class="online filter"><a href="#">Online</a></li>
+            <li class="offline filter"><a href="#">Offline</a></li>
+        </ul>
+        <div>
+            <ul class="results"></ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
+
 </html>
